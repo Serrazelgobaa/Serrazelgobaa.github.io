@@ -6,6 +6,7 @@ body.styleFlex.dark {
 	background-color: #121212;
 }
 
+
 header.styleFlex.dark {
 	height: 300px;
 	width: 100%;
@@ -101,6 +102,25 @@ nav#menu_skills {
 	cursor: pointer;
 }
 
+#creations h3 {
+	text-align: center;
+}
+
+#creations img {
+	display: block;
+	margin: auto;
+}
+
+#creations a.styleFlex.dark {
+	color: #ff8a00;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#creations a.styleFlex.dark:hover {
+	text-decoration: underline;
+}
+
 #menu_skills li:hover {
 	font-weight: bold;
 }
@@ -153,13 +173,6 @@ section h2 {
 #skills h3 {
 	text-align: center;
 }
-
-/* BANQUE COULEURS
-
-Prune : #950952;
-Bleu : #005c69;
-
-*/
 
 .container {
 	margin-top: 70px;
@@ -252,6 +265,16 @@ body > section.styleFlex.light {
 	border-radius: 5px;
 	box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.7);
 	padding: 2em;
+}
+
+#creations a.styleFlex.light {
+	color: #006dfc;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#creations a.styleFlex.light:hover {
+	text-decoration: underline;
 }
 
 /****************

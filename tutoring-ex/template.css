@@ -1,0 +1,311 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Verdana", sans-serif;
+  color: rgba(0,0,0,0.0);
+}
+
+nav {
+  height: 60px;
+  width: 100%;
+  position: fixed;
+  background-color: red;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  z-index: 20;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+li.menu_item{
+  display: inline-block;
+  height: 60px;
+  line-height: 60px;
+  width: 150px;
+  color: white;
+  text-decoration: none;
+  background-color: blue;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background-color: black;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  background-attachment: fixed;
+}
+
+header h1 {
+  font-size: 4em;
+  color: rgba(0,0,0,0);
+}
+
+header h2 {
+  color: rgba(0,0,0,0);
+}
+
+#titre{
+  text-align: center;
+  background-color: purple;
+}
+
+#bouton{
+  display: block;
+  line-height: 50px;
+  height: 50px;
+  border-radius: 50px;
+  width: 300px;
+  margin: auto;
+  background-color: blue;
+  color: rgba(0,0,0,0);
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 60px;
+}
+
+#logo {
+  width: 100px;
+  height: 100px;
+}
+
+#logo_container {
+  display: inline-block;
+  width: 200px;
+  height: 120px;
+  background-color: green;
+}
+
+#menu_icon {
+  display: none;
+}
+
+#widgets {
+  background-color: rgba(0,0,255,0.5);
+  position: relative;
+  bottom: 75px;
+  z-index: 10;
+  width: 100%;
+  height: 150px;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.widget_container {
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  font-weight: bold;
+  background-color: rgba(255,0,0,0.5);
+}
+
+.widget_item {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  margin: auto;
+  border-radius: 50px;
+}
+
+.widget_item img {
+  width: 50px;
+  height: 50px;
+  margin-top: 25px;
+}
+
+section {
+  padding-top: 30px;
+}
+
+footer {
+  height: 200px;
+  background-color: black;
+}
+
+section h2 {
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 40px;
+  font-size: 2em;
+}
+
+section#pres {
+  background-color: #e7dfc5;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom : 40px;
+  min-height: 580px;
+}
+
+section#histoire {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 40px;
+}
+
+#pres_image {
+  width: 333px;
+  height: 333px;
+  background-color: teal;
+  float: left;
+  margin-bottom: 40px;
+  margin-right: 2%
+}
+
+.histoire_image_gauche {
+  height: 345px;
+  width: 279px;
+  background-color: teal;
+  float: left;
+  margin-bottom: 40px;
+  margin-right: 2%
+}
+
+.histoire_image_droite {
+  width: 253px;
+  height: 359px;
+  background-color: teal;
+  float: right;
+  margin-bottom: 40px;
+  margin-left: 2%
+}
+
+section#recettes {
+  background-color: #e7dfc5;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 60px;
+}
+
+#recette_grille {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 40px;
+  background-color: blue;
+}
+
+.recette_carte
+{
+  background-color: white;
+  width: 310px;
+  height: 380px;
+  margin: auto;
+}
+
+.carte_header {
+  width: 310px;
+  height: 200px;
+  background-color: red;
+}
+
+.carte_body {
+  width: 280px;
+  height: 100px;
+  padding: 15px;
+  background-color: green;
+}
+
+.carte_footer {
+  width: 295px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 15px;
+  background-color: yellow;
+}
+
+.carte_footer a {
+  color: #c47723;
+  text-decoration: none;
+  font-weight: bold;
+
+}
+
+.carte_footer a:hover {
+  text-decoration: underline;
+
+}
+
+.carte_body h3 {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 15px;
+}
+
+.carte1{
+  grid-row: 1 span 1;
+  grid-column: 1 span 1;
+}
+
+.carte2{
+  grid-row: 1 span 1;
+  grid-column: 2 span 1;
+}
+
+.carte3{
+  grid-row: 1 span 1;
+  grid-column: 3 span 1;
+}
+
+.carte4{
+  grid-row: 2 span 1;
+  grid-column: 1 span 1;
+}
+
+.carte5{
+  grid-row: 2 span 1;
+  grid-column: 2 span 1;
+}
+
+.carte6{
+  grid-row: 2 span 1;
+  grid-column: 3 span 1;
+}
+
+section#achat {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 60px;
+  height: 500px;
+}
+
+form {
+  line-height: 40px;
+  text-align: center;
+}
+
+.choix {
+  color: rgba(0,0,0,0.6);
+}
+
+input {
+  font-size: 16px;
+}
+
+select {
+  height: 25px;
+  font-size: 16px;
+}
+
+hr {
+  width: 20%;
+}
+
+input#adresse {
+  width: 300px;
+}
+
